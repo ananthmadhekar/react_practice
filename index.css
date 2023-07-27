@@ -1,3 +1,73 @@
 h1{
     color:red
 }
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #F07C3A;
+    border:1px solid gray;
+}
+
+.logo{
+    width: 100px;
+
+}
+
+.res-card{
+    padding: 5px;
+    width: 350px;
+    height: 340px;  
+    background-color: #f0f0f0;  
+    margin: 5px;
+}
+
+.res-card:hover{
+    cursor: pointer;
+    border:1px solid gray;
+}
+
+.res-card-logo{
+    width: 350px;
+    height: 160px;
+}
+
+.nav-items>ul{
+    display: flex;
+    padding: 0px 20px;
+    list-style-type: none;
+    font-size: larger;
+}
+
+.nav-items>ul>li{
+    padding: 10px;
+    margin: 10px;   
+}
+
+.body{
+   
+}
+
+.res-container{
+    border: 1px solid gray;
+    height: 100%;
+    width: 100%;
+    padding: 20px 20px 57px;
+    border: 1px solid #fff;
+    contain: content;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.info>ul{
+    display: flex;
+    flex-wrap: wrap;
+    float: left;
+}
+
+.info>ul>li{
+    margin: 15px 10px;
+    padding-left: 0px;
+}
+
